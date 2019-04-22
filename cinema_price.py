@@ -1,0 +1,94 @@
+value=input("Enter film")
+value0=input("Enter date")
+value1=int(input("Enter time"))
+value2=int(input("Enter number of tickets"))
+if value2<20:
+    if value0=="today":
+            if value=="Friday":
+                if value1==12:
+                    print("cost is",250*value2)
+                elif value1==16:
+                    print("cost is",350*value2)
+                elif value1==20:
+                    print("cost is",450*value2)
+            elif value=="Champions":
+                if value1==10:
+                    print("cost is",250*value2)
+                elif value1==16:
+                    print("cost is",350*value2)
+                elif value1==20:
+                    print("cost is",350*value2)
+            elif value=="Feather band":
+                if value1==10:
+                    print("cost is",350*value2)
+                elif value1==14:
+                    print("cost is",340*value2)
+                elif value1==18:
+                    print("cost is",450*value2)
+    elif value0=="tomorrow":
+            if value=="Friday":
+                if value1==12:
+                    print("cost is",250*0.95*value2)
+                elif value1==16:
+                    print("cost is",350*0.95*value2)
+                elif value1==20:
+                    print("cost is",450*0.95*value2)
+            elif value=="Champions":
+                if value1==10:
+                    print("cost is",250*0.95*value2)
+                elif value1==16:
+                    print("cost is",350*0.95*value2)
+                elif value1==20:
+                    print("cost is",350*0.95*value2)
+            elif value=="Feather band":
+                if value1==10:
+                    print("cost is",350*0.95*value2)
+                elif value1==14:
+                    print("cost is",340*0.95*value2)
+                elif value1==18:
+                    print("cost is",450*0.95*value2)
+elif value2>=20:
+    if value0=="today":
+                if value=="Friday":
+                    if value1==12:
+                        print("cost is",250*value2*0.8)
+                    elif value1==16:
+                        print("cost is",350*value2*0.8)
+                    elif value1==20:
+                        print("cost is",450*value2*0.8)
+                elif value=="Champions":
+                    if value1==10:
+                        print("cost is",250*value2*0.8)
+                    elif value1==16:
+                        print("cost is",350*value2*0.8)
+                    elif value1==20:
+                        print("cost is",350*value2*0.8)
+                elif value=="Feather band":
+                    if value1==10:
+                        print("cost is",350*value2*0,8)
+                    elif value1==14:
+                        print("cost is",340*value2*0,8)
+                    elif value1==18:
+                        print("cost is",450*value2*0,8)
+    elif value0=="tomorrow":
+                if value=="Friday":
+                    if value1==12:
+                        print("cost is",250*0.95*0.8*value2)
+                    elif value1==16:
+                        print("cost is",350*0.95*0.8*value2)
+                    elif value1==20:
+                        print("cost is",450*0.95*0.8*value2)
+                elif value=="Champions":
+                    if value1==10:
+                        print("cost is",250*0.95*0.8*value2)
+                    elif value1==16:
+                        print("cost is",350*0.95*0.8*value2)
+                    elif value1==20:
+                        print("cost is",350*0.95*0.8*value2)
+                elif value=="Feather band":
+                    if value1==10:
+                        print("cost is",350*0.95*0.8*value2)
+                    elif value1==14:
+                        print("cost is",340*0.95*0.8*value2)
+                    elif value1==18:
+                        print("cost is",450*0.95*0.8*value2)
